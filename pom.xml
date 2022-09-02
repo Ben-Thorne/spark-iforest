@@ -14,8 +14,8 @@
         <java.version>1.8</java.version>
         <scala.version>2.12.13</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
-        <slf4j.version>1.7.16</slf4j.version>
-        <log4j.version>2.17.1</log4j.version>
+        <slf4j.version>1.7.32</slf4j.version>
+        <log4j.version>2.17.2</log4j.version>
         <skipTests>false</skipTests>
         <maven.version>3.3.9</maven.version>
         <spark.version>3.3.0</spark.version>
@@ -25,7 +25,7 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>2.17.1</version>
+            <version>${log4j.version}</version>
             <type>pom</type>
         </dependency>
         <dependency>
